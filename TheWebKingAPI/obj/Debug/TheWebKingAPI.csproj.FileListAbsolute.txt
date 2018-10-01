@@ -1,0 +1,17 @@
+C:\Users\shubham.sharma\source\repos\TheWebKing\TheWebKingAPI\bin\TheWebKingAPI.dll.config
+C:\Users\shubham.sharma\source\repos\TheWebKing\TheWebKingAPI\bin\TheWebKingAPI.dll
+C:\Users\shubham.sharma\source\repos\TheWebKing\TheWebKingAPI\bin\TheWebKingAPI.pdb
+C:\Users\shubham.sharma\source\repos\TheWebKing\TheWebKingAPI\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\shubham.sharma\source\repos\TheWebKing\TheWebKingAPI\bin\Newtonsoft.Json.dll
+C:\Users\shubham.sharma\source\repos\TheWebKing\TheWebKingAPI\bin\System.Net.Http.Formatting.dll
+C:\Users\shubham.sharma\source\repos\TheWebKing\TheWebKingAPI\bin\System.Web.Http.dll
+C:\Users\shubham.sharma\source\repos\TheWebKing\TheWebKingAPI\bin\System.Web.Http.WebHost.dll
+C:\Users\shubham.sharma\source\repos\TheWebKing\TheWebKingAPI\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\shubham.sharma\source\repos\TheWebKing\TheWebKingAPI\bin\Newtonsoft.Json.xml
+C:\Users\shubham.sharma\source\repos\TheWebKing\TheWebKingAPI\bin\System.Net.Http.Formatting.xml
+C:\Users\shubham.sharma\source\repos\TheWebKing\TheWebKingAPI\bin\System.Web.Http.xml
+C:\Users\shubham.sharma\source\repos\TheWebKing\TheWebKingAPI\bin\System.Web.Http.WebHost.xml
+C:\Users\shubham.sharma\source\repos\TheWebKing\TheWebKingAPI\obj\Debug\TheWebKingAPI.csprojResolveAssemblyReference.cache
+C:\Users\shubham.sharma\source\repos\TheWebKing\TheWebKingAPI\obj\Debug\TheWebKingAPI.csproj.CoreCompileInputs.cache
+C:\Users\shubham.sharma\source\repos\TheWebKing\TheWebKingAPI\obj\Debug\TheWebKingAPI.dll
+C:\Users\shubham.sharma\source\repos\TheWebKing\TheWebKingAPI\obj\Debug\TheWebKingAPI.pdb

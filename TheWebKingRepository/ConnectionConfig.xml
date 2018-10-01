@@ -1,0 +1,9 @@
+﻿<?xml version="1.0" encoding="utf-8" ?> 
+<ConnectionStrings>
+  <ConnctionString>
+    <Server>Server</Server>
+    <Database>Database</Database>
+    <UserId>UserId</UserId>
+    <Password>Password</Password>
+  </ConnctionString>
+</ConnectionStrings>

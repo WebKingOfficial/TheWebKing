@@ -1,0 +1,8 @@
+﻿#Move-image {
+    background: url(../../Image/SnowMonster.jpg); 
+    position: fixed;
+    left: 100px;
+    top: 0;
+    min-width: 90%;
+    min-height: 100%;
+}

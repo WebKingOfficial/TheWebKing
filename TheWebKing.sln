@@ -1,0 +1,43 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.27130.2036
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TheWebKing", "TheWebKing\TheWebKing.csproj", "{4EFB500B-50CC-485F-9F12-83E00F17C7AC}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TheWebKingAPI", "TheWebKingAPI\TheWebKingAPI.csproj", "{F325D089-071F-4A2C-B94A-4CF88BE8E6A4}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TheWebKingRepository", "TheWebKingRepository\TheWebKingRepository.csproj", "{83BAA3F9-1BD1-4749-91C6-9FFA262E722C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TheWebKingHelper", "TheWebKingHelper\TheWebKingHelper.csproj", "{E3B60597-BE6D-46F8-AB37-808A606FCC44}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{4EFB500B-50CC-485F-9F12-83E00F17C7AC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4EFB500B-50CC-485F-9F12-83E00F17C7AC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4EFB500B-50CC-485F-9F12-83E00F17C7AC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4EFB500B-50CC-485F-9F12-83E00F17C7AC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F325D089-071F-4A2C-B94A-4CF88BE8E6A4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F325D089-071F-4A2C-B94A-4CF88BE8E6A4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F325D089-071F-4A2C-B94A-4CF88BE8E6A4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F325D089-071F-4A2C-B94A-4CF88BE8E6A4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{83BAA3F9-1BD1-4749-91C6-9FFA262E722C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{83BAA3F9-1BD1-4749-91C6-9FFA262E722C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{83BAA3F9-1BD1-4749-91C6-9FFA262E722C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{83BAA3F9-1BD1-4749-91C6-9FFA262E722C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E3B60597-BE6D-46F8-AB37-808A606FCC44}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E3B60597-BE6D-46F8-AB37-808A606FCC44}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E3B60597-BE6D-46F8-AB37-808A606FCC44}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E3B60597-BE6D-46F8-AB37-808A606FCC44}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {B6FE0B94-C792-45F4-8AF3-37D0A8A31AC8}
+	EndGlobalSection
+EndGlobal

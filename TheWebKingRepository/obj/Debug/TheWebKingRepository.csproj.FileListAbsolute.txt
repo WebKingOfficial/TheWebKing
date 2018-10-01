@@ -1,0 +1,7 @@
+C:\Users\shubham.sharma\source\repos\TheWebKing\TheWebKingRepository\obj\Debug\TheWebKingRepository.csprojResolveAssemblyReference.cache
+C:\Users\shubham.sharma\source\repos\TheWebKing\TheWebKingRepository\obj\Debug\TheWebKingRepository.csproj.CoreCompileInputs.cache
+C:\Users\shubham.sharma\source\repos\TheWebKing\TheWebKingRepository\bin\Debug\TheWebKingRepository.exe.config
+C:\Users\shubham.sharma\source\repos\TheWebKing\TheWebKingRepository\bin\Debug\TheWebKingRepository.exe
+C:\Users\shubham.sharma\source\repos\TheWebKing\TheWebKingRepository\bin\Debug\TheWebKingRepository.pdb
+C:\Users\shubham.sharma\source\repos\TheWebKing\TheWebKingRepository\obj\Debug\TheWebKingRepository.exe
+C:\Users\shubham.sharma\source\repos\TheWebKing\TheWebKingRepository\obj\Debug\TheWebKingRepository.pdb
