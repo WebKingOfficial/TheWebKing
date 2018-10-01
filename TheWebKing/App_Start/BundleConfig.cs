@@ -29,6 +29,10 @@ namespace TheWebKing
                       "~/Content/site.css",
                       "~/Content/ErrorPage.css",
                       "~/Content/Style.css"));
+
+            bundles.Add(new StyleBundle("~/Content/ErrorCSS").Include(
+                      "~/Content/ErrorCSS/google-font.css",
+                      "~/Content/ErrorCSS/style.css"));
         }
     }
 }

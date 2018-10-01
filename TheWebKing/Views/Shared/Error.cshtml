@@ -1,13 +1,23 @@
-﻿<!DOCTYPE html>
-<html>
-<head>
-    <meta name="viewport" content="width=device-width" />
-    <title>Error</title>
-</head>
-<body style="background-color:#f1f1f1">
-    <center>
-        <img src="~/Image/404.gif" class="img-responsive">
-    </center>
-    @Html.ActionLink("Back To Home", "Index", "Home")
-</body>
-</html>
+﻿@Styles.Render("~/Content/ErrorCSS")
+<div id="parallax">
+    <div id="sky">
+        <img src="../../Images/ErrorImg/bg_moon.gif">
+    </div>
+    <div id="mountains"></div>
+    <div id="trees"></div>
+    <div id="rabbit"></div>
+    <div id="hill"></div>
+    <div id="sign"></div>
+    <div id="content">
+        <div id="content404">
+            <h2>Whoops!</h2>
+            <p class="title">Page Not Found</p>
+            <p class="message">The link you clicked may be broken or the page may have been removed.</p>
+            <p class="small">visit the 
+                <a href="/" title="Go back to the home page">homepage</a> or 
+                <a href="/company/#contact" title="Learn more about us">contact us</a>
+                about the problem
+            </p>
+        </div>
+    </div>
+</div>

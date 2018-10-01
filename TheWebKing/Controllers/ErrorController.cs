@@ -8,12 +8,7 @@ namespace TheWebKing.Controllers
 {
     public class ErrorController : Controller
     {
-        // GET: Error
-        public ActionResult Index()
-        {
-            return View();
-        }
-
+        [HandleError]
         public ActionResult FileNotFound()
         {
             return View();

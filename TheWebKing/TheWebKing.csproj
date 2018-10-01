@@ -152,24 +152,37 @@
   <ItemGroup>
     <Content Include="Content\bootstrap.css" />
     <Content Include="Content\bootstrap.min.css" />
+    <Content Include="Content\ErrorCSS\google-font.css" />
+    <Content Include="Content\ErrorCSS\style.css" />
     <Content Include="Content\ErrorPage.css" />
     <Content Include="Content\Style.css" />
     <Content Include="favicon.ico" />
     <Content Include="fonts\glyphicons-halflings-regular.svg" />
     <Content Include="Global.asax" />
     <Content Include="Content\Site.css" />
-    <Content Include="Image\404.gif" />
-    <Content Include="Image\bg-404.gif" />
-    <Content Include="Image\img_girl.jpg" />
-    <Content Include="Image\SnowMonster.jpg" />
-    <Content Include="Image\NotFound.gif" />
-    <Content Include="Image\photographer.jpg" />
+    <Content Include="Images\404.gif" />
+    <Content Include="Images\bg-404.gif" />
+    <Content Include="Images\ErrorImg\bg_hill.png" />
+    <Content Include="Images\ErrorImg\bg_moon.gif" />
+    <Content Include="Images\ErrorImg\bg_mountains.png" />
+    <Content Include="Images\ErrorImg\bg_rabbit.png" />
+    <Content Include="Images\ErrorImg\bg_sign.png" />
+    <Content Include="Images\ErrorImg\bg_sky.gif" />
+    <Content Include="Images\ErrorImg\bg_trees.png" />
+    <Content Include="Images\img_girl.jpg" />
+    <Content Include="Images\NotFound.gif" />
+    <Content Include="Images\photographer.jpg" />
+    <Content Include="Images\SnowMonster.jpg" />
     <Content Include="Scripts\bootstrap.js" />
     <Content Include="Scripts\bootstrap.min.js" />
     <Content Include="ApplicationInsights.config">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </Content>
     <None Include="Scripts\jquery-1.10.2.intellisense.js" />
+    <Content Include="Scripts\ErrorJS\gtm.js" />
+    <Content Include="Scripts\ErrorJS\jquery.js" />
+    <Content Include="Scripts\ErrorJS\move.js" />
+    <Content Include="Scripts\ErrorJS\plax.js" />
     <Content Include="Scripts\jquery-1.10.2.js" />
     <Content Include="Scripts\jquery-1.10.2.min.js" />
     <None Include="Scripts\jquery.validate-vsdoc.js" />
@@ -197,7 +210,6 @@
     <Content Include="Views\Home\About.cshtml" />
     <Content Include="Views\Home\Contact.cshtml" />
     <Content Include="Views\Home\Index.cshtml" />
-    <Content Include="Views\Error\FileNotFound.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
