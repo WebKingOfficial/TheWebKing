@@ -8,41 +8,47 @@ using System.Xml.Linq;
 
 namespace TheWebKingRepository.ADO
 {
+    public class ADOConnectionString
+    {
+        public string ConnectionString { get; private set; }
+
+        public ADOConnectionString()
+        {
+            ConnectionString = Properties.Settings.Default.ConnectionString;
+        }
+    }
+
     class ADOUserRepository
     {
-        public string ConnectionString = null;
-        SqlConnection sqlConnection = null;
+        private SqlConnection sqlConnection = null;
+        private ADOConnectionString aDOConnectionString = null;       
 
-        public SqlConnection GetConnection(string connectionString)
+        protected SqlConnection GetConnection()
         {
-            if(sqlConnection == null)
+            if (sqlConnection == null)
             {
-                sqlConnection = new SqlConnection(connectionString);
+                aDOConnectionString = new ADOConnectionString();
+                sqlConnection = new SqlConnection(aDOConnectionString.ConnectionString);
             }
             return sqlConnection;
         }
 
         public void GetUserDetails()
         {
-            string Server, Database, UserId, Password;
-            XDocument doc = XDocument.Load("../../ConnectionConfig.xml");
-            var connctionString = doc.Descendants("ConnctionString");
-            Server = connctionString.Descendants("Server").ToArray()[0].Value;
-            Database = connctionString.Descendants("Database").ToArray()[0].Value;
-            UserId = connctionString.Descendants("UserId").ToArray()[0].Value;
-            Password = connctionString.Descendants("Password").ToArray()[0].Value;
-
-            ConnectionString = "Data Source=" + Server + ";Initial Catalog=" + Database + ";User ID=" + UserId + ";Password=" + Password;
-
+            CreateCommand("select * from [User]");
             Console.ReadLine();
         }
-        private static void CreateCommand(string queryString, string connectionString)
+        private void CreateCommand(string queryString)
         {
-            using (SqlConnection connection = new SqlConnection(connectionString))
+            using (SqlConnection connection = GetConnection())
             {
                 SqlCommand command = new SqlCommand(queryString, connection);
                 command.Connection.Open();
-                command.ExecuteNonQuery();
+                var a = command.ExecuteReader();
+                while (a.Read())
+                {
+                    Console.WriteLine(a[0]);
+                }
             }
         }
     }
