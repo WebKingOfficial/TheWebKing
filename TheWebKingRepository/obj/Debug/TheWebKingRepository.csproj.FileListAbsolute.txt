@@ -5,3 +5,10 @@ C:\Users\shubham.sharma\source\repos\TheWebKing\TheWebKingRepository\bin\Debug\T
 C:\Users\shubham.sharma\source\repos\TheWebKing\TheWebKingRepository\bin\Debug\TheWebKingRepository.pdb
 C:\Users\shubham.sharma\source\repos\TheWebKing\TheWebKingRepository\obj\Debug\TheWebKingRepository.exe
 C:\Users\shubham.sharma\source\repos\TheWebKing\TheWebKingRepository\obj\Debug\TheWebKingRepository.pdb
+C:\Users\Shubham Sharma\Source\Repos\TheWebKing3\TheWebKingRepository\bin\Debug\TheWebKingRepository.exe.config
+C:\Users\Shubham Sharma\Source\Repos\TheWebKing3\TheWebKingRepository\bin\Debug\TheWebKingRepository.exe
+C:\Users\Shubham Sharma\Source\Repos\TheWebKing3\TheWebKingRepository\bin\Debug\TheWebKingRepository.pdb
+C:\Users\Shubham Sharma\Source\Repos\TheWebKing3\TheWebKingRepository\obj\Debug\TheWebKingRepository.csprojAssemblyReference.cache
+C:\Users\Shubham Sharma\Source\Repos\TheWebKing3\TheWebKingRepository\obj\Debug\TheWebKingRepository.csproj.CoreCompileInputs.cache
+C:\Users\Shubham Sharma\Source\Repos\TheWebKing3\TheWebKingRepository\obj\Debug\TheWebKingRepository.exe
+C:\Users\Shubham Sharma\Source\Repos\TheWebKing3\TheWebKingRepository\obj\Debug\TheWebKingRepository.pdb

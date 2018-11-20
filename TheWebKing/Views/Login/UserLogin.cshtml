@@ -1,0 +1,88 @@
+﻿
+@{
+    ViewBag.Title = "UserLogin";
+}
+
+<div class="container">
+    <div class="card text-white bg-info col-5" style="top:50px; margin: 0px auto; animation: ease-in-out 5s linear 2s infinite alternate;" id="login">
+        <div class="card-header row">
+            <div class="col-12">
+                <h4>Login</h4>
+            </div>
+        </div>
+        <div class="card-body">
+            <form class="form-horizontal">
+                <div class="form-group">
+                    <label class="control-label" for="email">Email:</label>
+                    <input type="email" class="form-control" id="email" placeholder="Enter email">
+                </div>
+                <div class="form-group">
+                    <label class="control-label" for="pwd">Password:</label>
+                    <input type="password" class="form-control" id="pwd" placeholder="Enter password">
+                </div>
+                <div class="form-group">
+                    <label><input type="checkbox"> Remember me </label>
+                </div>
+                <div class="form-group">
+                    <a class="btn btn-secondary" onClick="changePage('forgot-password')">Forgot Password?</a>
+                    <a class="btn btn-success" onClick="changePage('register')">Register</a>
+                </div>
+                <div class="form-group">
+                    <button class="btn btn-info">Submit</button>
+                </div>
+            </form>
+        </div>
+    </div>
+
+    <div class="card text-white bg-secondary card-hidden col-5" style="top:50px; margin: 0px auto; animation: ease-in-out 5s linear 2s infinite alternate;" id="forgot-password">
+        <div class="card-header row">
+            <div class="col-11">
+                <h4>Forgot Password</h4>
+            </div>
+            <div class="col-1">
+                <h3 style="text-align:right" onclick="changePage('forgot-password')">x</h3>
+            </div>
+        </div>
+        <div class="card-body">
+            <form class="form-horizontal">
+                <div class="form-group">
+                    <label class="control-label" for="email">Email:</label>
+                    <input type="email" class="form-control" id="email" placeholder="Enter email">
+                </div>
+                <div class="form-group">
+                    <button class="btn btn-secondary">Send Pin</button>
+                </div>
+            </form>
+        </div>
+    </div>
+
+    <div class="card text-white bg-success card-hidden col-5" style="top:50px; margin: 0px auto; animation: ease-in-out 5s linear 2s infinite alternate;" id="register">
+        <div class="card-header row">
+            <div class="col-11">
+                <h4>Register</h4>
+            </div>
+            <div class="col-1">
+                <h3 style="text-align:right" onclick="changePage('register')">x</h3>
+            </div>
+        </div>
+        <div class="card-body">
+            <form class="form-horizontal">
+                <div class="form-group">
+                    <label class="control-label" for="email">Email:</label>
+                    <input type="email" class="form-control" id="email" placeholder="Enter email">
+                </div>
+                <div class="form-group">
+                    <label class="control-label" for="pwd">Password:</label>
+                    <input type="password" class="form-control" id="pwd" placeholder="Enter password">
+                </div>
+                <div class="form-group">
+                    <label class="control-label" for="pwd">Re-enter Password:</label>
+                    <input type="password" class="form-control" id="pwd" placeholder="Enter password again">
+                </div>
+                <div class="form-group">
+                    <button class="btn btn-success">Register</button>
+                </div>
+            </form>
+        </div>
+    </div>
+</div>
